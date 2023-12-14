@@ -62,9 +62,13 @@
   padding-bottom: 66px;
   width: 420px;
   text-align: center;
-  background-color: white;
+  background: linear-gradient(to bottom, #0e3054, #2777b8);
   border-radius: 22px;
   box-shadow: 0 0 50px rgba(133, 222, 255, 0.5);
+}
+
+#login-card h2 {
+  font-size: 2.7rem;
 }
 
 .login-button {
@@ -73,6 +77,13 @@
   padding: 12px;
   border-radius: 8px;
   display: inline-block;
+}
+
+.text-gradient {
+  background: -webkit-linear-gradient(#2adda7, #cde4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .facebook {
